@@ -14,12 +14,16 @@
 		382CCBCF1590491F00891178 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 382CCBCE1590491F00891178 /* main.m */; };
 		382CCBD31590491F00891178 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 382CCBD21590491F00891178 /* AppDelegate.m */; };
 		382CCBD61590491F00891178 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382CCBD41590491F00891178 /* MainStoryboard.storyboard */; };
-		382CCBD91590491F00891178 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382CCBD81590491F00891178 /* ViewController.m */; };
 		382CCBE11590492000891178 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382CCBE01590492000891178 /* SenTestingKit.framework */; };
 		382CCBE21590492000891178 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382CCBC21590491E00891178 /* UIKit.framework */; };
 		382CCBE31590492000891178 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382CCBC41590491E00891178 /* Foundation.framework */; };
 		382CCBEB1590492000891178 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 382CCBE91590492000891178 /* InfoPlist.strings */; };
 		382CCBEE1590492000891178 /* FOFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 382CCBED1590492000891178 /* FOFTests.m */; };
+		38606A5F1593F11200C00A75 /* sql_handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 38606A5E1593F11200C00A75 /* sql_handler.m */; };
+		38606A621593F33000C00A75 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38606A611593F33000C00A75 /* libsqlite3.0.dylib */; };
+		38EC19691593DA7B00A96E30 /* login_viewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC19681593DA7B00A96E30 /* login_viewcontroller.m */; };
+		38EC196D1593DAD700A96E30 /* question_generation_viewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC196C1593DAD700A96E30 /* question_generation_viewcontroller.m */; };
+		38EC19711593DB3400A96E30 /* friends_list_viewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC19701593DB3400A96E30 /* friends_list_viewcontroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +48,21 @@
 		382CCBD11590491F00891178 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		382CCBD21590491F00891178 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		382CCBD51590491F00891178 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		382CCBD71590491F00891178 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		382CCBD81590491F00891178 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		382CCBDF1590492000891178 /* FOFTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOFTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		382CCBE01590492000891178 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		382CCBE81590492000891178 /* FOFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FOFTests-Info.plist"; sourceTree = "<group>"; };
 		382CCBEA1590492000891178 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		382CCBEC1590492000891178 /* FOFTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOFTests.h; sourceTree = "<group>"; };
 		382CCBED1590492000891178 /* FOFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOFTests.m; sourceTree = "<group>"; };
+		38606A5D1593F11200C00A75 /* sql_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sql_handler.h; sourceTree = "<group>"; };
+		38606A5E1593F11200C00A75 /* sql_handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sql_handler.m; sourceTree = "<group>"; };
+		38606A611593F33000C00A75 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		38EC19671593DA7B00A96E30 /* login_viewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login_viewcontroller.h; sourceTree = "<group>"; };
+		38EC19681593DA7B00A96E30 /* login_viewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = login_viewcontroller.m; sourceTree = "<group>"; };
+		38EC196B1593DAD700A96E30 /* question_generation_viewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = question_generation_viewcontroller.h; sourceTree = "<group>"; };
+		38EC196C1593DAD700A96E30 /* question_generation_viewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = question_generation_viewcontroller.m; sourceTree = "<group>"; };
+		38EC196F1593DB3400A96E30 /* friends_list_viewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = friends_list_viewcontroller.h; sourceTree = "<group>"; };
+		38EC19701593DB3400A96E30 /* friends_list_viewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = friends_list_viewcontroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,7 @@
 				382CCBC31590491E00891178 /* UIKit.framework in Frameworks */,
 				382CCBC51590491E00891178 /* Foundation.framework in Frameworks */,
 				382CCBC71590491E00891178 /* CoreGraphics.framework in Frameworks */,
+				38606A621593F33000C00A75 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,11 +123,12 @@
 		382CCBC81590491E00891178 /* FOF */ = {
 			isa = PBXGroup;
 			children = (
-				382CCBD11590491F00891178 /* AppDelegate.h */,
-				382CCBD21590491F00891178 /* AppDelegate.m */,
 				382CCBD41590491F00891178 /* MainStoryboard.storyboard */,
-				382CCBD71590491F00891178 /* ViewController.h */,
-				382CCBD81590491F00891178 /* ViewController.m */,
+				38606A601593F11600C00A75 /* SQL */,
+				38EC196A1593DA7F00A96E30 /* Log In VC */,
+				38EC196E1593DADB00A96E30 /* Question Gen VC */,
+				38EC19721593DB3700A96E30 /* Friends List VC */,
+				38EC19661593DA4900A96E30 /* Main Delegate */,
 				382CCBC91590491E00891178 /* Supporting Files */,
 			);
 			path = FOF;
@@ -149,6 +162,53 @@
 				382CCBE91590492000891178 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38606A601593F11600C00A75 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				38606A5D1593F11200C00A75 /* sql_handler.h */,
+				38606A5E1593F11200C00A75 /* sql_handler.m */,
+				38606A611593F33000C00A75 /* libsqlite3.0.dylib */,
+			);
+			name = SQL;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		38EC19661593DA4900A96E30 /* Main Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				382CCBD11590491F00891178 /* AppDelegate.h */,
+				382CCBD21590491F00891178 /* AppDelegate.m */,
+			);
+			name = "Main Delegate";
+			sourceTree = "<group>";
+		};
+		38EC196A1593DA7F00A96E30 /* Log In VC */ = {
+			isa = PBXGroup;
+			children = (
+				38EC19671593DA7B00A96E30 /* login_viewcontroller.h */,
+				38EC19681593DA7B00A96E30 /* login_viewcontroller.m */,
+			);
+			name = "Log In VC";
+			sourceTree = "<group>";
+		};
+		38EC196E1593DADB00A96E30 /* Question Gen VC */ = {
+			isa = PBXGroup;
+			children = (
+				38EC196B1593DAD700A96E30 /* question_generation_viewcontroller.h */,
+				38EC196C1593DAD700A96E30 /* question_generation_viewcontroller.m */,
+			);
+			name = "Question Gen VC";
+			sourceTree = "<group>";
+		};
+		38EC19721593DB3700A96E30 /* Friends List VC */ = {
+			isa = PBXGroup;
+			children = (
+				38EC196F1593DB3400A96E30 /* friends_list_viewcontroller.h */,
+				38EC19701593DB3400A96E30 /* friends_list_viewcontroller.m */,
+			);
+			name = "Friends List VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +319,10 @@
 			files = (
 				382CCBCF1590491F00891178 /* main.m in Sources */,
 				382CCBD31590491F00891178 /* AppDelegate.m in Sources */,
-				382CCBD91590491F00891178 /* ViewController.m in Sources */,
+				38EC19691593DA7B00A96E30 /* login_viewcontroller.m in Sources */,
+				38EC196D1593DAD700A96E30 /* question_generation_viewcontroller.m in Sources */,
+				38EC19711593DB3400A96E30 /* friends_list_viewcontroller.m in Sources */,
+				38606A5F1593F11200C00A75 /* sql_handler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +492,7 @@
 				382CCBF31590492000891178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		382CCBF41590492000891178 /* Build configuration list for PBXNativeTarget "FOFTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +501,7 @@
 				382CCBF61590492000891178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
